@@ -6,11 +6,17 @@
 The fundamental concepts of version control include
 
 Repository:This refers to a central location where all project files and their version history are stored
+
 Commit:An action that saves a snapshot of the current state state of the project files with a descriptive message explaining the changes made
+
 Branch: A separate line of development that allows developers to work on features independently without affecting the main codebase
+
 Merging:This refers to the process of combining changes from different branches back in to the main codebase
+
 Conflict:This refers to a situation where changes from different branches cannot be automatically merged due to conflicting edits,requiring manual resolution
+
 Tag:Amarker used to identify a specific version of the project ,often used for releases
+
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
