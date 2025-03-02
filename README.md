@@ -141,7 +141,29 @@ Disadvantages of public repositories:
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+1.Set up Git and Github 
+This is done by installing git,create a git hub account and then configure git by opening your terminal and setting up your git username and email
+
+2.Create a repository on Github
+Once you have logged in to your github account ,click the new repository button and name it
+
+3.Clone the repository on your local machine
+On your github account go to your new repository ,click the code button then copy the URL ,open the terminall and navigate to the directory where you want to clone the repository,run this command to clone the repository git clone https://github.com/username/repository.git
+
+4.Add files to Git
+this tells git which files to track through this command in the terminal git add.
+
+5.Commit your changes
+Save a snapshot of the current version of your files 
+git commit -m "add awsome new features"
+the -m flag is used to add a commit message. Write a brief description of what your changes are about.
+
+Git commits are like saving your projects progress at specific points including who made changes and when they were made.by regularly committing changes ,you create a detailed history of your project,making collaboration and tracking easier.Each commit includes crucial information like the commit message ,author and timestamp,helping everyone understand the projects development.Remember, commits are local first;use git push to share your work with the team.
+
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+
+
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
