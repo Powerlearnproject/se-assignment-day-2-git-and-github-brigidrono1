@@ -208,7 +208,13 @@ git push origin new-feature
 title and description:Aclear and descriptive title and summary of the changes are provided .This helps reviewers understand the context and purpose of the pull request
 Assign reviewers:Reviewers are assigned to the pull request 
 
-5.Code Review:
+5.Code Review:Reviewers examine the changes, leave comments suggest improvements and may request changes.The developer may need to make additional commits to address these comments.
+
+6.Approval:Once the reviewers are satisfied with the changes ,they approve the pull request.
+
+7.Merging:The pull request can be merged in to the main branch 
+
+8.Delete branch:After the pull request is merged ,the feature branch is usually deleted to keep the repository clean.
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
